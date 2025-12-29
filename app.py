@@ -54,9 +54,9 @@ def ornekleri_hazirla_ve_getir():
         
         for filename in files:
             full_path = os.path.join(target_dir, filename)
-            if "hasta" in filename:
+            if "HASTA" in filename:
                 etiket = "PNEUMONIA (Hasta/Zatürre)"
-            elif "saglikli" in filename:
+            elif "SAGLIKLI" in filename:
                 etiket = "NORMAL (Sağlıklı)"
             else:
                 etiket = "Bilinmiyor"
