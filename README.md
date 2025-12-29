@@ -58,7 +58,7 @@ Bu proje **NixOS** üzerinde **Devenv** kullanılarak geliştirilmiştir, ancak 
 ```bash
 # 1. Projeyi klonlayın
 git clone https://github.com/namaelsan/pneumonia-detection-cnn.git]
-cd PROJE_ADIN
+cd pneumonia-detection-cnn
 
 # 2. Geliştirme ortamına girin (Tüm bağımlılıklar otomatik kurulur)
 devenv shell
