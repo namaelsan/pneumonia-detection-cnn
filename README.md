@@ -111,6 +111,7 @@ Model, test veri seti üzerinde değerlendirilmiş ve aşağıdaki sonuçlar eld
 
 Aşağıdaki matris, modelin kaç adet "Hasta"yı doğru bildiğini ve kaç adet "Sağlıklı"yı karıştırdığını gösterir:
 
+   <img src="assets/cfmatrix.png" />
 
 ---
 
