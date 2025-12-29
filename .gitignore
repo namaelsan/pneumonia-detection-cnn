@@ -1,3 +1,9 @@
+# runtime
+hazir_ornekler
+egitim_grafigi.png
+confusion_matrix.png
+*.keras
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +211,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# gradio
+.gradio
