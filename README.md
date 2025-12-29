@@ -32,7 +32,8 @@ Zatürre, dünya genelinde çocuk ve yaşlı ölümlerinin başlıca sebeplerind
 Projede Kaggle üzerinde bulunan **"Chest X-Ray Images (Pneumonia)"** veri seti kullanılmıştır.
 * **Kaynak:** [Kaggle - Paul Mooney](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 * **İçerik:** 5,863 adet JPEG formatında X-Ray görüntüsü.
-* **Sınıflar:** * `NORMAL` (Sağlıklı)
+* **Sınıflar:**
+    * `NORMAL` (Sağlıklı)
     * `PNEUMONIA` (Hasta - Bakteriyel/Viral)
 
 ---
@@ -49,7 +50,7 @@ Projede sıfırdan bir CNN eğitmek yerine **Transfer Learning** yöntemi tercih
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma
+## 🔧 Kurulum ve Çalıştırma
 
 Bu proje **NixOS** üzerinde **Devenv** kullanılarak geliştirilmiştir, ancak standart Python ortamlarında da çalışabilir.
 
@@ -110,21 +111,6 @@ Model, test veri seti üzerinde değerlendirilmiş ve aşağıdaki sonuçlar eld
 
 Aşağıdaki matris, modelin kaç adet "Hasta"yı doğru bildiğini ve kaç adet "Sağlıklı"yı karıştırdığını gösterir:
 
----
-
-## 📂 Dosya Yapısı
-
-```
-.
-├── app.py               # Gradio web arayüzü kodu
-├── train.py             # Model eğitim kodu
-├── test.py              # Model performans testi ve metrik hesaplama
-├── pneumonia_model.keras # Eğitilmiş model dosyası
-├── requirements.txt     # Python kütüphaneleri
-├── devenv.nix           # NixOS geliştirme ortamı ayarları
-└── README.md            # Proje dokümantasyonu
-
-```
 
 ---
 
