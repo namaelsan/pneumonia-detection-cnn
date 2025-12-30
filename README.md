@@ -91,7 +91,6 @@ Uygulama başlatıldığında terminalde bir link belirecektir (genellikle `http
 
 * **Resim Yükleme:** Bilgisayarınızdan bir X-Ray görüntüsü yükleyin.
 * **Örnekler:** Sayfanın altındaki hazır örneklere tıklayarak modelin test verisi üzerindeki performansını anında görebilirsiniz.
-* **Gerçek Etiket Kontrolü:** Örnek seçtiğinizde sol tarafta resmin gerçek etiketi, sağ tarafta ise modelin tahmini görünür.
 <div>
    <img src="assets/screenshot1.png" />
    <img src="assets/screenshot2.png" />
